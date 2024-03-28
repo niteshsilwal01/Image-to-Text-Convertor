@@ -6,4 +6,4 @@ User-friendly Interface: Easy-to-use interface for uploading images.
 Text Extraction: Utilizes Tesseract.js for high-accuracy text extraction from images.
 
 Getting Started:
-To run this project locally, clone the repositor.
+To run this project locally, clone the repository.
