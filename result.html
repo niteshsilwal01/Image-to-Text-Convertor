@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Extracted Text</title>
+    <style>
+        .boxed {
+            border: 1px solid green; /* Sets a solid green border */
+            padding: 10px; /* Adds padding inside the box */
+            width: 1200px; /* Sets the width of the box */
+            height: auto; /* Adjusts the height based on content */
+            background-color: #f9f9f9; /* Sets a light background color */
+            margin: 10px; /* Adds some space around the box */
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Optional: Adds a shadow for a 3D effect */
+        }
+
+        h1 {
+            text-align: centre;    /* aligns the text under h1 tag in center */
+        }   
+    </style>
+</head>
+<body>
+    <div style="display: flex; justify-content: center;">
+        <h1>Extracted Text</h1>
+    </div>
+    
+    <div class="boxed">
+        {{ text }}
+    </div>
+</body>
+</html>
